@@ -92,6 +92,25 @@ a {
 	font-family: 'Catamaran', sans-serif;
 }
 
+#img-float {
+	float:left;
+	margin:40px;
+	width:500px;
+}
+
+.p-class{
+	margin:20px;
+	padding:25px;
+	color: white;
+}
+
+#div-float {
+	overflow:auto;
+	border: solid 5px green;
+	background: purple;
+}
+
+
 
 
 
