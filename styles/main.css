@@ -182,6 +182,13 @@ and (min-width: 1224px){
 
 }
 
+a:hover {
+  background-color: purple;
+  color: white;
+  padding: 1px;
+  border: white 5px solid;
+}
+
 
 
 
