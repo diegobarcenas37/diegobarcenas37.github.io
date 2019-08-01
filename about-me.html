@@ -2,6 +2,16 @@
 <html>
 		<head>
 	  		 <title>This is me </title>
+	  		 <script type = "text/javascript">
+         <!--
+            if(document.images) {
+               var image1 = new Image();     // Preload an image
+               image1.src = "./images/me.png";
+               var image2 = new Image();     // Preload second image
+               image2.src = "./images/me2.jpg";
+            }
+         //-->
+      </script>
 	  		 <link rel="stylesheet" type="text/css"
 	  		  href="./styles/main.css">
 	  		  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
@@ -21,7 +31,11 @@
 	   	<div id ="bio">
 	   		<h2>Diego's bio</h2>
 	   		<div id="div-float">
-	   			<img id="img-float" src="images/me.png" style="width: 250px;height:250px">
+	   			 <a href = "#" onMouseOver = "document.myImage.src = image2.src;"
+         onMouseOut = "document.myImage.src = image1.src;">
+         <img name = "myImage" id="img-float" src = "./images/me.png" width="320px" height="400px" />
+      </a>
+	   			
 	   		<p class="p-class">Hello. My name is Diego, my full name is Diego Francisco Barcenas. I was born and raised in Hayward, California, born on April 9th 2004. I am currently a student at Impact Academy High School in Hayward. In August, I will be starting my Sophomore Year of High School. Previous schools I went to include Burbank Elementary and Impact Academy Middle Grades.
 	   		I enjoy doing various activities, such as learning how to play different types of instruments, and coding. I also enjoy making art, both visual and digital (mainly on photoshop!). My favorite subject in School in general would be Math, and sometimes I use math to create art! Math is amazing, feel free to talk to me about it!.
 	   		 Also, one of my favorite things is the month of December, where I am always feeling unusually happy. I already enjoy talking about the holidays, and decorating. As mentioned, I really like music. It is good to have music in this world as it is a major healing power. Also, my favorite color is green! I like green stuff, and green landscapes. When I am older, I want to travel to Ireland, and expand my Irish vocabulary.</p>

@@ -36,7 +36,7 @@ nav a {
 }
 
 /* Add a black background color to the top navigation */
-nav {
+nav a {
   background-color: #333;
   overflow: hidden;
   float: middle;

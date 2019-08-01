@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms and JS</title>
+	<style>
+		#welcome {
+			padding: 50px;
+			width: 50%;
+			display: none;
+		}
+	</style>
+	<script type="text/javascript">
+		function myButtonFunction() {
+			var yourName = document.getElementById('name');
+			var	spanPlaceholder = 
+			document.getElementById('name-placeholder')
+			spanPlaceholder.innerText=yourName.value;
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Name: <br>
+		<input type="text" id="name" name="name">
+		<br>
+		<input type="button" value="ok" onclick="myButtonFunction();">
+	</form>
+<div id="Welcome">
+	<h1>Welcome <span id="name-placeholder"></span>!</h1>
+</div>
+</body>
+</html>
